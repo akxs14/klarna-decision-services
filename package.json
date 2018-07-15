@@ -1,0 +1,19 @@
+{
+  "name": "klarna-decision-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akxs14/klarna-decision-services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akxs14/klarna-decision-services/issues"
+  },
+  "homepage": "https://github.com/akxs14/klarna-decision-services#readme"
+}
