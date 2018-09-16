@@ -4,6 +4,7 @@
     <title>Klarna Decision Services</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/workflow-de.css">
 </head>
 <body>
 
@@ -77,7 +78,9 @@
             </div>
           </li>
           <li class="button">
-            <button type="button" class="btn btn-success">register!</button>
+            <a href="workflow-de.html">
+              <button type="button" class="btn btn-success">register!</button>
+            </a>
           </li>
         </ul>
       </div>
@@ -85,135 +88,69 @@
 
   <div id="content">
 
-    <div class="container">
-      <div class="jumbotron jumbotron-white">
-        <div class="row">
-          <div class="col-7">
-            <h2 class="gray-h1">Create the new generation of smart apps</h2>
-            <h2 class="purple-h1">Better decisions. Faster and cheaper</h2>
-
-            <ul class="icon">
-              <li class="star">Use Klarna's Decision Services for decision and risk analytics.</li>
-              <li class="star">The simplest, cheapest and most effective way to automate decision making.</li>
-              <li class="star">Battle tested in one of the world's fastest growing financial institutions</li>
-            </ul>
-
-            <button type="button" class="btn btn-primary btn-lg">Register and try it for free</button>
-            <button type="button" class="btn btn-outline-primary btn-lg">Contact us and learn more</button>
-          </div>
-          <div class="col-5">
-            <img src="img/think.jpg" class="img-circle"/>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container-fluid">
-      <div class="jumbotron jumbotron-testimonial">
-
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" class="img-responsive">
-            <img src="img/chineseflag.jpg" />
-          </div>
-          <div class="col-md-6">
-            <h2>China ETS</h2>
-            <p>The Chinese Federal Ministry of Environment, Nature Conservation, Building and Nuclear Safety (BMUB) selected Klarna as its technology provider for its Emission Trading System (ETS). </p>
-            <p>Klarna reached an agreement with BMUB to provide its decision services for the newly established emissions trading system and allow it to provide world-class trading capabilities with the simplicity and cost-efficiency which characterizes Klarna Decision Services.</p>
-            <p>You can read more about the ETS <a href="http://www.ieta.org/resources/China/Chinas_National_ETS_Implications_for_Carbon_Markets_and_Trade_ICTSD_March2016_Jeff_Swartz.pdf">here</a> and about our common success story here <a href="https://theconversation.com/china-announces-national-emissions-trading-scheme-experts-react-48159">here</a>.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h1 class="text-center">Why Klarna Decision Services?</h1>
-
       <div class="row">
-        <div class="col-4">
-          <img src="img/ease_of_use1.jpg"/>
-        </div>
+        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+          <br/>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><b>Abstract</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Variable</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Function</a>
+            </li>
+          </ul>
 
-        <div class="col-4">
-          <img id="power-img" src="img/power-19.jpg"/>
-        </div>
+          <br/>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><b>Input</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RaaS Request</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RaaS Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">External Source</a>
+            </li>
+          </ul>
 
-        <div class="col-4">
-          <img id="lambda-img" src="img/lambda.png"/>
-        </div>
-      </div>
+          <br/>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><b>Control Flow</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">If</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">If/else</a>
+            </li>
+          </ul>
+        </nav>
 
-      <div class="row">
-         <div class="col-4">
-          <h3 class="text-center">Ease of Use</h3>
-          <p>KDS has been designed from the ground up to be extremely easy to use even for non technical people.</p>
-        </div>
+        <main class="col-sm-5 col-md-5">
+          <h1>Policy XYZ</h1>
+        </main>
 
-        <div class="col-4">
-          <h3 class="text-center">Powerful analytics</h3>
-          <p>Utilize your data like never before and build better solutions.</p>
-        </div>
+        <main class="col-sm-4 col-md-4">
+          <pre class="code-area">
+            <code data-language="python">
+              def openFile(path):
+                file = open(path, "r")
+                content = file.read()
+                file.close()
+                return content
+            </code>
+          </pre>
+        </main>
 
-        <div class="col-4">
-          <h3 class="text-center">Only Code</h3>
-          <p>Scale your data and code to planetary scale and never bother with capacity, reliability or performance.</p>
-        </div>
     </div>
-
-    <h1 class="text-center">All the decisioning tools you will need in one place.</h1>
-
-    <div class="row">
-      <div class="col-4">
-        <b>Decide</b>
-        <p>Make the best decisions efficiently and cost effective. For experts and newbies alike.</p>
-        <ul>
-          <li><a href="deceng.html">Decision Engine</a></li>
-          <li><a href="riskunder.html">Risk Underwriting</a></li>
-        </ul>
-      </div>
-
-      <div class="col-4">
-        <b>Build Profiles</b>
-        <p>Profile building tools, enhancing your decision making.</p>
-        <ul>
-          <li><a href="identity.html">Identity</a></li>
-          <li><a href="persona.html">Personal Profile</a></li>
-        </ul>
-      </div>
-
-      <div class="col-4">
-        <b>Risk</b>
-        <p>State-of-the-art risk products for financial markets, data and code.</p>
-        <ul>
-          <li><a href="riskfeats.html">Risk Features</a></li>
-          <li><a href="riskeng.html">Risk Engine</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <br/><br/>
-    <div class="row">
-      <div class="col-4">
-        <b>Modelling AI</b>
-        <p>Products for world class financial modelling.</p>
-        <ul>
-          <li><a href="creditmodel.html">Credit</a></li>
-          <li><a href="fraudmodel.html">Fraud</a></li>
-        </ul>
-      </div>
-
-      <div class="col-4">
-        <b>Managing Lists</b>
-        <p>Tools for handling groups of entities.</p>
-        <ul>
-          <li><a href="whitelisting.html">Whitelisting</a></li>
-          <li><a href="blacklisting.html">Blacklisting</a></li>
-          <li><a href="lisp.html">List Processing</a></li>
-        </ul>
-      </div>
-    </div>
-    </div>
-
-  <!-- content -->
   </div>
 
   <footer class="footer">
@@ -222,6 +159,7 @@
     </div>
   </footer>
 
+  <script src="js/rainbow-custom.min.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
